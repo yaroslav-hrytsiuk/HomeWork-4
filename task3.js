@@ -8,7 +8,7 @@ function factorial(arr) {
     if (arr === 1) {
         return 1;
     } else {
-        return arr + factorial(arr - 1);
+        return arr * factorial(arr - 1);
     }
 }
 
